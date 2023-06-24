@@ -37,8 +37,4 @@
         width: 50%;
         height: 50%;
     }
-
-    header{
-        color: black;
-    }
 </style>
