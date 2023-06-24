@@ -4,11 +4,10 @@ inset-x-0
 top-0">
     <div class="header">
     <div class="header-text">
-    <h1>Welcome to WatchAnything!</h1>
-    <h2>The place to watch anything with friends!</h2>
+    <h1>Welcome to WatchAnything, the place to watch anything with friends!</h1>
     </div>
     <div class="header-links">
-    <p><a href="/about">About</a></p>
+    <p><a href="/about">About</a> <a href="https://github.com/DanielOglesby/WatchAnything">Github</a></p>
     </div>
 </div>
 </header>
@@ -41,9 +40,8 @@ top-0">
         color: black;
     }
 
-
     a{
         text-decoration: underline;
-        margin: 20px;
+        margin-left: 20px;
     }
 </style>
