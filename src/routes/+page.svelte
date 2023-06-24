@@ -21,7 +21,9 @@
 </div>
 
 <footer>
+    <div class="footer-text">
     <p>Created by <a href="https://github.com/DanielOglesby" target="_blank">Daniel Oglesby</a></p>
+    </div>  
 </footer>
 
 
@@ -38,21 +40,34 @@
     .header-text{
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
-        height: 100px;
-        background-color: red;
+        height: 50px;
+        background-color: black;
         gap: 10px;
     }
 
     .header-links{
-        background-color: green;
+        background-color: black;
         display: flex;
         flex-direction: row;
-        justify-content: right;
+        justify-content: left;
         gap: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        text-decoration: underline;
+    }
+
+    .footer-text{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        height: 100px;
+        background-color: black;
+        gap: 10px;
+    }
+
+    a{
         text-decoration: underline;
     }
 
