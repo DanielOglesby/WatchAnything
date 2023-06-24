@@ -1,3 +1,7 @@
+<script>
+      import Youtube from "svelte-youtube-embed";
+</script>
+
 <header>
     <div class="header-text">
     <h1>Welcome to WatchAnything!</h1>
@@ -9,7 +13,11 @@
 </header>
 
 <div class="center">
-    Middle div
+    <div class="play-box">
+    <Youtube id="x2wVlemZ6Sc">
+        <button>play</button>
+      </Youtube>
+      </div>
 </div>
 
 <footer>
@@ -24,7 +32,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: black;
+        background:linear-gradient(250deg, rgb(50,50,255), rgb(150,150,250));
     }
 
     .header-text{
@@ -52,6 +60,11 @@
         font-family:'Courier New', Courier, monospace;
         color: white;
         font-size: 20px;
+    }
+
+    .play-box{
+        width: 50%;
+        height: 50%;
     }
 
     header{
