@@ -8,7 +8,7 @@ const config = {
 		extend: {}
 	},
 
-	plugins: [typography]
+	plugins: [typography, require('@tailwindcss/forms')]
 };
 
 module.exports = config;
