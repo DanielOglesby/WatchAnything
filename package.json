@@ -19,6 +19,7 @@
 		"@sveltejs/adapter-static": "^1.0.0-next.50",
 		"@sveltejs/kit": "^1.0.0-next.587",
 		"@sveltejs/vite-plugin-svelte": "^2.0.4",
+		"@tailwindcss/forms": "^0.5.3",
 		"@tailwindcss/typography": "^0.5.9",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
@@ -41,6 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@supabase/supabase-js": "^2.26.0",
 		"svelte-preprocess": "^5.0.4"
 	}
 }
