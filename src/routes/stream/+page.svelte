@@ -3,6 +3,7 @@
 	import Footer from '../../components/Footer.svelte';
 	import Header from '../../components/Header.svelte';
 
+
 	let originalString = '';
 	let trimmedString = trimURL(originalString, '=');
 	function trimURL(str: string, character: string) {
