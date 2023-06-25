@@ -19,4 +19,8 @@
       <span class="absolute inset-y-0 left-0 flex items-center pl-3" />
       Sign Out
     </button>
+
+    <div>
+        <a href="/stream" class="m-20 font-medium hover:font-bold h-1/2 w-1/2 color text-black">Start Streaming!</a>
+    </div>
   </div>
