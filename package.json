@@ -17,6 +17,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^1.0.0-next.90",
 		"@sveltejs/adapter-static": "^1.0.0-next.50",
+		"@sveltejs/adapter-vercel": "^3.0.1",
 		"@sveltejs/kit": "^1.0.0-next.587",
 		"@sveltejs/vite-plugin-svelte": "^2.0.4",
 		"@tailwindcss/forms": "^0.5.3",
