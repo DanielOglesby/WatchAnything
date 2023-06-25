@@ -4,7 +4,6 @@
     import UserScreen from "../components/UserScreen.svelte";
     import supabase from "../lib/supabase";
 
-    console.log(supabase);
   </script>
   
   {#if !$currentUser}

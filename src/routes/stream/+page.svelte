@@ -62,7 +62,7 @@
 
 	.play-box {
 		width: 50%;
-		height: 50%;
+		aspect-ratio: 16/9;
 	}
 
 	input {
